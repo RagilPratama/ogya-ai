@@ -7,7 +7,7 @@ export default function Home(){return (<>
 <nav id="nav"><a href="#top" aria-current="true">Beranda</a><a href="#industries">Industri</a><a href="#channels">Kanal</a><a href="#platform">Platform</a><a href="#business-needs">Kebutuhan</a><a href="#ecosystem">Ekosistem</a></nav>
 <a className="btn" href="#cta">Diskusikan kebutuhan <svg className="i"><use href="#se"/></svg></a>
 <button className="theme" id="theme" aria-label="Ganti mode terang atau gelap" title="Ganti tema"><svg className="i sun"><use href="#sun"/></svg><svg className="i moon"><use href="#moon"/></svg></button>
-<button className="menu" id="menu" aria-expanded="false" aria-label="Buka navigasi"><svg className="i"><use href="#menu"/></svg></button></div></header>
+<button className="menu" id="menuBtn" aria-expanded="false" aria-label="Buka navigasi"><svg className="i"><use href="#menu"/></svg></button></div></header>
 <main>
 
 <section id="top"><div className="wrap hero">
@@ -100,4 +100,5 @@ export default function Home(){return (<>
 <button className="back-top" id="backTop" aria-label="Kembali ke atas" title="Kembali ke atas"><svg className="i"><use href="#up"/></svg></button>
 <Behavior/>
 </>)}
+
 

@@ -6,7 +6,7 @@ const LABELS = ['Beranda', 'Industri', 'Kanal', 'Platform', 'Kebutuhan', 'Ekosis
 export default function Behavior() {
   useEffect(() => {
     const $ = (id) => document.getElementById(id)
-    const m = $('menu'), n = $('nav'), ic = m.firstElementChild.firstElementChild
+    const m = $('menuBtn'), n = $('nav'), ic = m.firstElementChild.firstElementChild
     const scrollTo_ = (el) => el?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     const off = []
 
@@ -81,3 +81,4 @@ export default function Behavior() {
   }, [])
   return null
 }
+
